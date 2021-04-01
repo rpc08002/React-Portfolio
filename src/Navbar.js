@@ -1,10 +1,10 @@
 const Navbar = () => {
     return (
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Ryan Curtin</a>
+        <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <div className="container">
+        <a className="navbar-brand" href="#">Ryan Curtin</a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarTogglerDemo02"
@@ -12,20 +12,20 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li className="nav-item">
+              <a className="nav-link" href="contact.html">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <li className="nav-item">
+              <a className="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >About<span class="sr-only">(current)</span></a
+            <li className="nav-item active">
+              <a className="nav-link" href="index.html"
+                >About<span className="sr-only">(current)</span></a
               >
             </li>
           </ul>

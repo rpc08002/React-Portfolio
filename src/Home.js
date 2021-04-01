@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <main>
+    <main>
       <article className="p-3 mb-5">
         <div>
           <header className="page-header profile">
@@ -11,7 +11,7 @@ const Home = () => {
             <img
               src="Assets/Images/profile.jpeg"
               className="img-fluid float-left mr-3 photo"
-              alt="Profile Photo"
+              alt="Profile"
             />
             <p>
               Hello and welcome to my page! My name is Ryan Patrick Curtin and I
